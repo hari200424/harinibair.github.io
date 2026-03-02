@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    color: #222;
+}
+
+header {
+    background: #0c1b33;
+    color: white;
+    padding: 15px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.btn {
+    background: #0c1b33;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 60px 15%;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.skills span {
+    display: inline-block;
+    background: #0c1b33;
+    color: white;
+    padding: 8px 14px;
+    margin: 6px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #0c1b33;
+    color: white;
+}
